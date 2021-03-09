@@ -5,21 +5,6 @@ spring:
   # Basic application info
   application:
     name: GameStart
-  # Basic Datasource/JDBC configurations
-  datasource:
-    platform: postgres
-    url: ${db.url}
-    driver-class-name: org.postgresql.Driver
-    username: ${db.username}
-    password: ${db.password}
-
-
-  # Spring Data JPA configurations
-  jpa:
-    database-platform: org.hibernate.dialect.PostgreSQL10Dialect
-    show-sql: true
-    hibernate:
-      ddl-auto: validate
 
 # Spring Boot Actuator configurations
 management:
