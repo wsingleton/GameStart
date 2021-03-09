@@ -33,6 +33,3 @@ out/
 
 # Properties files
 *.properties
-
-# YML file
-*.yml
