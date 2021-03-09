@@ -18,8 +18,7 @@ public class TestController {
 
     //Constructors --------------------------------------------------
     @Autowired
-    public GameController(GameService gameService) {
-        this.gameService = gameService;
+    public TestController() {
     }
 
     //Get -----------------------------------------------------------
