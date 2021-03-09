@@ -1,5 +1,5 @@
 package com.revature.gameStart;
-import com.revature.gameStart.api.RawgApi;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;

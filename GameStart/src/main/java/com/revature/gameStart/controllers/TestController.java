@@ -1,8 +1,5 @@
 package com.revature.gameStart.controllers;
 
-
-import com.revature.gameStart.models.Game;
-import com.revature.gameStart.services.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
